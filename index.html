@@ -2,12 +2,16 @@
 <html "en"ng-app="pokemon">
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script type="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-	<title>	</title>
+	<meta charset="utf-8">
+	<title> pokemon	</title>
+	<link rel="stylesheet"  href="css/style.css">
 </head>
-<body>
-	<script type="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-	<!--script angular -->
-<script src="js/script.js"></script>
+<body ng controller="PokedexB">
+	<div class="cuadro" ng-repeat="poke in PokedexB">
+		<p>{{poke.data.name}}</p>
+		
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
