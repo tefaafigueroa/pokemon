@@ -1,15 +1,16 @@
 html body {
   width: 100% !important;
+  background: #212F3C  ;
 }
 .fullContainer, .fullWidth {
-  width: 100% !important;
+  width: 100% !important#424949;
   margin: 0 !important;
   padding: 0 !important;
 }
 
 .header {
   height: 80px;
-  background-color: #FE3E31; 
+  background-color:#F5B7B1 ; 
   width: 100%;
   display: flex;
   justify-content: center;
@@ -17,18 +18,18 @@ html body {
   flex-direction: column;
 }
 
-.title {
-  font-family: 'Rammetto One', cursive;
-  color: #FFFFFF;
+.hola {
+  font-family: 'Rammetto One',
+  color: #F5B7B1  ;
 }
-.divInfo {
+.poke {
   border: 3px solid black;
   height: 250px;
   background-color: #FDF5DE;
   display:flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 3px 2px 5px #54585C;
+  box-shadow: 3px 2px 5px #424949;
 }
 .pokePicture {
   width: 200px;
@@ -39,10 +40,14 @@ html body {
 .pokeName {
   border: 3px solid black;
   padding: 5px;
-  background-color: #3ACFC0;
+  background-color: #F5B7B1  ;
   margin-bottom: 20px;
   text-transform: capitalize;
   font-family: 'Coiny', cursive;
   font-size: 25px;
-  box-shadow: 3px 2px 5px #54585C;
+  box-shadow: 3px 2px 5px #424949;
+}
+
+body{
+  background: #344480;
 }
